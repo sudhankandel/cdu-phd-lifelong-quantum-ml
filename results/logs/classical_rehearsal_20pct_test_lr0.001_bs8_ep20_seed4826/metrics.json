@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7441471571906355,
+      null,
+      null
+    ],
+    [
+      0.09230769230769231,
+      0.7657600596125187,
+      null
+    ],
+    [
+      0.16789297658862878,
+      0.6630029806259314,
+      0.8023578363384188
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7441471571906355,
+      null,
+      null
+    ],
+    [
+      0.09230769230769231,
+      0.7657600596125187,
+      null
+    ],
+    [
+      0.16789297658862878,
+      0.6630029806259314,
+      0.8023578363384188
+    ]
+  ],
+  "eval_mode": "test",
+  "use_best_config": true,
+  "best_config_source": "results/tuning/classical_rehearsal_20pct_seed4826/best_config.json",
+  "best_config_sha256": "7286022bea193f0dd9289ce25a231d47b05e3dcdb599bc237c1b2aa693428452",
+  "selected_validation_balanced_accuracy": 0.5256218374753159,
+  "selected_validation_run": "classical_rehearsal_20pct_validation_lr0.001_bs8_ep20_seed4826",
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 354,
+      "task_balanced_accuracy": [
+        0.7441471571906355
+      ],
+      "average_accuracy": 0.7441471571906355,
+      "average_balanced_accuracy": 0.7441471571906355,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 2.1741552352905273,
+      "drift_from_initial_l2": 2.1741552352905273
+    },
+    {
+      "task": 2,
+      "train_samples": 6312,
+      "task_balanced_accuracy": [
+        0.09230769230769231,
+        0.7657600596125187
+      ],
+      "average_accuracy": 0.4290338759601055,
+      "average_balanced_accuracy": 0.4290338759601055,
+      "average_forgetting": 0.6518394648829432,
+      "parameter_drift_l2": 8.468340873718262,
+      "drift_from_initial_l2": 8.932740211486816
+    },
+    {
+      "task": 3,
+      "train_samples": 1844,
+      "task_balanced_accuracy": [
+        0.16789297658862878,
+        0.6630029806259314,
+        0.8023578363384188
+      ],
+      "average_accuracy": 0.5444179311843264,
+      "average_balanced_accuracy": 0.5444179311843264,
+      "average_forgetting": 0.339505629794297,
+      "parameter_drift_l2": 7.526703357696533,
+      "drift_from_initial_l2": 11.272254943847656
+    }
+  ],
+  "final_average_balanced_accuracy": 0.5444179311843264,
+  "elapsed_seconds": 55.73,
+  "smoke_test": false
+}

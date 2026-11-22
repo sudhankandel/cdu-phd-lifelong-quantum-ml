@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7441471571906355,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7456035767511178,
+      null
+    ],
+    [
+      0.0,
+      0.0,
+      0.9318654646324549
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7441471571906355,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7456035767511178,
+      null
+    ],
+    [
+      0.0,
+      0.0,
+      0.9318654646324549
+    ]
+  ],
+  "eval_mode": "test",
+  "use_best_config": true,
+  "best_config_source": "results/tuning/classical_naive_0pct_seed4826/best_config.json",
+  "best_config_sha256": "b5650828b0dfd95f732dade7809b61f29dfd2e516f41336c19621225ad274600",
+  "selected_validation_balanced_accuracy": 0.3075291622481442,
+  "selected_validation_run": "classical_naive_0pct_validation_lr0.001_bs8_ep20_seed4826",
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 354,
+      "task_balanced_accuracy": [
+        0.7441471571906355
+      ],
+      "average_accuracy": 0.7441471571906355,
+      "average_balanced_accuracy": 0.7441471571906355,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 2.1741552352905273,
+      "drift_from_initial_l2": 2.1741552352905273
+    },
+    {
+      "task": 2,
+      "train_samples": 6242,
+      "task_balanced_accuracy": [
+        0.0,
+        0.7456035767511178
+      ],
+      "average_accuracy": 0.3728017883755589,
+      "average_balanced_accuracy": 0.3728017883755589,
+      "average_forgetting": 0.7441471571906355,
+      "parameter_drift_l2": 5.529939651489258,
+      "drift_from_initial_l2": 5.657430648803711
+    },
+    {
+      "task": 3,
+      "train_samples": 525,
+      "task_balanced_accuracy": [
+        0.0,
+        0.0,
+        0.9318654646324549
+      ],
+      "average_accuracy": 0.31062182154415163,
+      "average_balanced_accuracy": 0.31062182154415163,
+      "average_forgetting": 0.7448753669708766,
+      "parameter_drift_l2": 4.435717582702637,
+      "drift_from_initial_l2": 6.503787517547607
+    }
+  ],
+  "final_average_balanced_accuracy": 0.31062182154415163,
+  "elapsed_seconds": 46.15,
+  "smoke_test": false
+}

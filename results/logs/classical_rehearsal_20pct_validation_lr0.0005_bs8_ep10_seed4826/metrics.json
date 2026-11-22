@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7866876310272537,
+      null,
+      null
+    ],
+    [
+      0.1320754716981132,
+      0.7615886850800644,
+      null
+    ],
+    [
+      0.04664570230607966,
+      0.6510632889943235,
+      0.6511134676564156
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7866876310272537,
+      null,
+      null
+    ],
+    [
+      0.1320754716981132,
+      0.7615886850800644,
+      null
+    ],
+    [
+      0.04664570230607966,
+      0.6510632889943235,
+      0.6511134676564156
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.7866876310272537
+      ],
+      "average_accuracy": 0.7866876310272537,
+      "average_balanced_accuracy": 0.7866876310272537,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 1.1042978763580322,
+      "drift_from_initial_l2": 1.1042978763580322
+    },
+    {
+      "task": 2,
+      "train_samples": 5050,
+      "task_balanced_accuracy": [
+        0.1320754716981132,
+        0.7615886850800644
+      ],
+      "average_accuracy": 0.4468320783890888,
+      "average_balanced_accuracy": 0.4468320783890888,
+      "average_forgetting": 0.6546121593291405,
+      "parameter_drift_l2": 3.0847113132476807,
+      "drift_from_initial_l2": 3.2430038452148438
+    },
+    {
+      "task": 3,
+      "train_samples": 1476,
+      "task_balanced_accuracy": [
+        0.04664570230607966,
+        0.6510632889943235,
+        0.6511134676564156
+      ],
+      "average_accuracy": 0.44960748631893965,
+      "average_balanced_accuracy": 0.44960748631893965,
+      "average_forgetting": 0.42528366240345744,
+      "parameter_drift_l2": 3.0661377906799316,
+      "drift_from_initial_l2": 4.482583999633789
+    }
+  ],
+  "final_average_balanced_accuracy": 0.44960748631893965,
+  "elapsed_seconds": 22.43,
+  "smoke_test": false
+}

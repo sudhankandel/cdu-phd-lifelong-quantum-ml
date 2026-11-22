@@ -1,0 +1,11 @@
+{
+  "model": "classical",
+  "strategy": "rehearsal",
+  "memory": 5,
+  "seed": 4826,
+  "learning_rate": 0.001,
+  "epochs": 20,
+  "batch_size": 8,
+  "final_average_balanced_accuracy": 0.44950574747833133,
+  "run": "classical_rehearsal_5pct_validation_lr0.001_bs8_ep20_seed4826"
+}

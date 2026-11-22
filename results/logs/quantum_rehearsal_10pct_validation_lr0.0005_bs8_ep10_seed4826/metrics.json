@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7961215932914046,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.8037813479623825,
+      null
+    ],
+    [
+      0.27358490566037735,
+      0.6363477505718885,
+      0.043478260869565216
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7961215932914046,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.8037813479623825,
+      null
+    ],
+    [
+      0.27358490566037735,
+      0.6363477505718885,
+      0.043478260869565216
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.7961215932914046
+      ],
+      "average_accuracy": 0.7961215932914046,
+      "average_balanced_accuracy": 0.7961215932914046,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 0.6648449082132707,
+      "drift_from_initial_l2": 0.6648449082132707
+    },
+    {
+      "task": 2,
+      "train_samples": 5021,
+      "task_balanced_accuracy": [
+        0.0,
+        0.8037813479623825
+      ],
+      "average_accuracy": 0.40189067398119127,
+      "average_balanced_accuracy": 0.40189067398119127,
+      "average_forgetting": 0.7961215932914046,
+      "parameter_drift_l2": 2.8242961014360106,
+      "drift_from_initial_l2": 2.9073473941060253
+    },
+    {
+      "task": 3,
+      "train_samples": 947,
+      "task_balanced_accuracy": [
+        0.27358490566037735,
+        0.6363477505718885,
+        0.043478260869565216
+      ],
+      "average_accuracy": 0.31780363903394365,
+      "average_balanced_accuracy": 0.31780363903394365,
+      "average_forgetting": 0.3449851425107607,
+      "parameter_drift_l2": 1.2614959641050196,
+      "drift_from_initial_l2": 3.144896920705282
+    }
+  ],
+  "final_average_balanced_accuracy": 0.31780363903394365,
+  "elapsed_seconds": 61.04,
+  "smoke_test": false
+}

@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.8238993710691824,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.8100191688553757,
+      null
+    ],
+    [
+      0.0,
+      0.5504426840633737,
+      0.7834040296924709
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.8238993710691824,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.8100191688553757,
+      null
+    ],
+    [
+      0.0,
+      0.5504426840633737,
+      0.7834040296924709
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.8238993710691824
+      ],
+      "average_accuracy": 0.8238993710691824,
+      "average_balanced_accuracy": 0.8238993710691824,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 1.48079514503479,
+      "drift_from_initial_l2": 1.48079514503479
+    },
+    {
+      "task": 2,
+      "train_samples": 5007,
+      "task_balanced_accuracy": [
+        0.0,
+        0.8100191688553757
+      ],
+      "average_accuracy": 0.40500958442768786,
+      "average_balanced_accuracy": 0.40500958442768786,
+      "average_forgetting": 0.8238993710691824,
+      "parameter_drift_l2": 4.199410438537598,
+      "drift_from_initial_l2": 4.302227973937988
+    },
+    {
+      "task": 3,
+      "train_samples": 683,
+      "task_balanced_accuracy": [
+        0.0,
+        0.5504426840633737,
+        0.7834040296924709
+      ],
+      "average_accuracy": 0.44461557125194817,
+      "average_balanced_accuracy": 0.44461557125194817,
+      "average_forgetting": 0.5417379279305923,
+      "parameter_drift_l2": 3.8371753692626953,
+      "drift_from_initial_l2": 5.55944299697876
+    }
+  ],
+  "final_average_balanced_accuracy": 0.44461557125194817,
+  "elapsed_seconds": 19.44,
+  "smoke_test": false
+}

@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7222222222222222,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7782581758874862,
+      null
+    ],
+    [
+      0.0,
+      0.630244958908752,
+      0.6293743372216332
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7222222222222222,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7782581758874862,
+      null
+    ],
+    [
+      0.0,
+      0.630244958908752,
+      0.6293743372216332
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.7222222222222222
+      ],
+      "average_accuracy": 0.7222222222222222,
+      "average_balanced_accuracy": 0.7222222222222222,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 0.7709698677062988,
+      "drift_from_initial_l2": 0.7709698677062988
+    },
+    {
+      "task": 2,
+      "train_samples": 5050,
+      "task_balanced_accuracy": [
+        0.0,
+        0.7782581758874862
+      ],
+      "average_accuracy": 0.3891290879437431,
+      "average_balanced_accuracy": 0.3891290879437431,
+      "average_forgetting": 0.7222222222222222,
+      "parameter_drift_l2": 2.1079113483428955,
+      "drift_from_initial_l2": 2.270862340927124
+    },
+    {
+      "task": 3,
+      "train_samples": 1476,
+      "task_balanced_accuracy": [
+        0.0,
+        0.630244958908752,
+        0.6293743372216332
+      ],
+      "average_accuracy": 0.4198730987101284,
+      "average_balanced_accuracy": 0.4198730987101284,
+      "average_forgetting": 0.43511771960047824,
+      "parameter_drift_l2": 1.81160306930542,
+      "drift_from_initial_l2": 2.6435844898223877
+    }
+  ],
+  "final_average_balanced_accuracy": 0.4198730987101284,
+  "elapsed_seconds": 42.63,
+  "smoke_test": false
+}

@@ -1,0 +1,60 @@
+{
+  "seed": 4826,
+  "temporary_seed": false,
+  "model": "quantum",
+  "strategy": "rehearsal",
+  "memory_percent": 10.0,
+  "epochs": 20,
+  "batch_size": 8,
+  "learning_rate": 0.0005,
+  "device": "cpu",
+  "train_split_sha256": "9731439012d0c3502c1168630de335fe43a8af355eb3513cf58691edb1dfd560",
+  "eval_mode": "test",
+  "use_best_config": true,
+  "best_config_source": "results/tuning/quantum_rehearsal_10pct_seed4826/best_config.json",
+  "best_config_sha256": "b3773fe57e078f5618bdc7dc158d954319706befe3c57341ce80af4033b09cfa",
+  "selected_validation_balanced_accuracy": 0.3764022126513899,
+  "selected_validation_run": "quantum_rehearsal_10pct_validation_lr0.0005_bs8_ep20_seed4826",
+  "validation_ratio": null,
+  "train_samples": 7121,
+  "eval_samples": 1781,
+  "class_to_id": {
+    "DF": 0,
+    "AKIEC": 1,
+    "BKL": 2,
+    "NV": 3,
+    "VASC": 4,
+    "BCC": 5
+  },
+  "tasks": [
+    [
+      "DF",
+      "AKIEC"
+    ],
+    [
+      "BKL",
+      "NV"
+    ],
+    [
+      "VASC",
+      "BCC"
+    ]
+  ],
+  "backbone": "ResNet18_Weights.IMAGENET1K_V1",
+  "preprocessing": "Resize(224,224),ToTensor,ImageNet normalize",
+  "quantum_shots": null,
+  "readout": false,
+  "class_weighted": false,
+  "weighting_scheme": null,
+  "trainable_parameters": 3114,
+  "python": "3.11.18",
+  "torch": "2.15.0",
+  "pennylane": "0.45.1",
+  "numpy": "2.4.6",
+  "sklearn": "1.9.1",
+  "smoke_test": false,
+  "is_primary_seed": true,
+  "created_utc": "2026-11-21T11:28:37.474591+00:00",
+  "train_pool_sha256": "9731439012d0c3502c1168630de335fe43a8af355eb3513cf58691edb1dfd560",
+  "eval_split_sha256": "e9248d68a6c3a650abe123400c2074ad0e2d550c96282430b29d3686aef4a054"
+}

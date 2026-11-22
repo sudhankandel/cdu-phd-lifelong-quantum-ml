@@ -1,0 +1,11 @@
+{
+  "model": "quantum",
+  "strategy": "rehearsal",
+  "memory": 10,
+  "seed": 4826,
+  "learning_rate": 0.0005,
+  "epochs": 20,
+  "batch_size": 8,
+  "final_average_balanced_accuracy": 0.3764022126513899,
+  "run": "quantum_rehearsal_10pct_validation_lr0.0005_bs8_ep20_seed4826"
+}

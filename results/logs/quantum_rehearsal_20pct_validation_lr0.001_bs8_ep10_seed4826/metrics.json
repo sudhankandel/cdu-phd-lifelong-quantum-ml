@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7777777777777778,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7341115606201813,
+      null
+    ],
+    [
+      0.37735849056603776,
+      0.4767008387698043,
+      0.0
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7777777777777778,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7341115606201813,
+      null
+    ],
+    [
+      0.37735849056603776,
+      0.4767008387698043,
+      0.0
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.7777777777777778
+      ],
+      "average_accuracy": 0.7777777777777778,
+      "average_balanced_accuracy": 0.7777777777777778,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 1.065390663078047,
+      "drift_from_initial_l2": 1.065390663078047
+    },
+    {
+      "task": 2,
+      "train_samples": 5050,
+      "task_balanced_accuracy": [
+        0.0,
+        0.7341115606201813
+      ],
+      "average_accuracy": 0.3670557803100907,
+      "average_balanced_accuracy": 0.3670557803100907,
+      "average_forgetting": 0.7777777777777778,
+      "parameter_drift_l2": 3.81478151854832,
+      "drift_from_initial_l2": 3.9970959556333545
+    },
+    {
+      "task": 3,
+      "train_samples": 1476,
+      "task_balanced_accuracy": [
+        0.37735849056603776,
+        0.4767008387698043,
+        0.0
+      ],
+      "average_accuracy": 0.28468644311194735,
+      "average_balanced_accuracy": 0.28468644311194735,
+      "average_forgetting": 0.32891500453105854,
+      "parameter_drift_l2": 2.4131165858330363,
+      "drift_from_initial_l2": 4.122033797570827
+    }
+  ],
+  "final_average_balanced_accuracy": 0.28468644311194735,
+  "elapsed_seconds": 60.51,
+  "smoke_test": false
+}

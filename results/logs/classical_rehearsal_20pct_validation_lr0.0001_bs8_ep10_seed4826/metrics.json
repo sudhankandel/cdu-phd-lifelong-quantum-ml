@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.5555555555555556,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7412813479623825,
+      null
+    ],
+    [
+      0.0,
+      0.6014148945183428,
+      0.6041887592788971
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.5555555555555556,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7412813479623825,
+      null
+    ],
+    [
+      0.0,
+      0.6014148945183428,
+      0.6041887592788971
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.5555555555555556
+      ],
+      "average_accuracy": 0.5555555555555556,
+      "average_balanced_accuracy": 0.5555555555555556,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 0.5821828842163086,
+      "drift_from_initial_l2": 0.5821828842163086
+    },
+    {
+      "task": 2,
+      "train_samples": 5050,
+      "task_balanced_accuracy": [
+        0.0,
+        0.7412813479623825
+      ],
+      "average_accuracy": 0.37064067398119127,
+      "average_balanced_accuracy": 0.37064067398119127,
+      "average_forgetting": 0.5555555555555556,
+      "parameter_drift_l2": 1.4127997159957886,
+      "drift_from_initial_l2": 1.481865406036377
+    },
+    {
+      "task": 3,
+      "train_samples": 1476,
+      "task_balanced_accuracy": [
+        0.0,
+        0.6014148945183428,
+        0.6041887592788971
+      ],
+      "average_accuracy": 0.40186788459907996,
+      "average_balanced_accuracy": 0.40186788459907996,
+      "average_forgetting": 0.34771100449979764,
+      "parameter_drift_l2": 1.2695305347442627,
+      "drift_from_initial_l2": 1.7422325611114502
+    }
+  ],
+  "final_average_balanced_accuracy": 0.40186788459907996,
+  "elapsed_seconds": 20.88,
+  "smoke_test": false
+}

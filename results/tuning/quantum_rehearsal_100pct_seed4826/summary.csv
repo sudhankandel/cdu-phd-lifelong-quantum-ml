@@ -1,0 +1,7 @@
+learning_rate,epochs,batch_size,final_average_balanced_accuracy,run
+0.0005,10,8,0.37353618730053295,quantum_rehearsal_100pct_validation_lr0.0005_bs8_ep10_seed4826
+0.0001,20,8,0.3627027140709569,quantum_rehearsal_100pct_validation_lr0.0001_bs8_ep20_seed4826
+0.0005,20,8,0.3528351409166308,quantum_rehearsal_100pct_validation_lr0.0005_bs8_ep20_seed4826
+0.001,10,8,0.33199869370168655,quantum_rehearsal_100pct_validation_lr0.001_bs8_ep10_seed4826
+0.001,20,8,0.3312089833519567,quantum_rehearsal_100pct_validation_lr0.001_bs8_ep20_seed4826
+0.0001,10,8,0.3151470571098022,quantum_rehearsal_100pct_validation_lr0.0001_bs8_ep10_seed4826

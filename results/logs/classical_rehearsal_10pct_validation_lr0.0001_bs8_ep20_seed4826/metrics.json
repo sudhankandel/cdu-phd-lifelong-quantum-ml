@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.7222222222222222,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7459411802084216,
+      null
+    ],
+    [
+      0.0,
+      0.5282422900957383,
+      0.6224814422057264
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.7222222222222222,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7459411802084216,
+      null
+    ],
+    [
+      0.0,
+      0.5282422900957383,
+      0.6224814422057264
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.7222222222222222
+      ],
+      "average_accuracy": 0.7222222222222222,
+      "average_balanced_accuracy": 0.7222222222222222,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 0.7709698677062988,
+      "drift_from_initial_l2": 0.7709698677062988
+    },
+    {
+      "task": 2,
+      "train_samples": 5021,
+      "task_balanced_accuracy": [
+        0.0,
+        0.7459411802084216
+      ],
+      "average_accuracy": 0.3729705901042108,
+      "average_balanced_accuracy": 0.3729705901042108,
+      "average_forgetting": 0.7222222222222222,
+      "parameter_drift_l2": 2.0891385078430176,
+      "drift_from_initial_l2": 2.215745210647583
+    },
+    {
+      "task": 3,
+      "train_samples": 947,
+      "task_balanced_accuracy": [
+        0.0,
+        0.5282422900957383,
+        0.6224814422057264
+      ],
+      "average_accuracy": 0.38357457743382156,
+      "average_balanced_accuracy": 0.38357457743382156,
+      "average_forgetting": 0.46996055616745275,
+      "parameter_drift_l2": 1.71492338180542,
+      "drift_from_initial_l2": 2.486248731613159
+    }
+  ],
+  "final_average_balanced_accuracy": 0.38357457743382156,
+  "elapsed_seconds": 39.1,
+  "smoke_test": false
+}

@@ -1,0 +1,7 @@
+learning_rate,epochs,batch_size,final_average_balanced_accuracy,run
+0.001,20,8,0.3075291622481442,classical_naive_0pct_validation_lr0.001_bs8_ep20_seed4826
+0.0005,20,8,0.30549664192294096,classical_naive_0pct_validation_lr0.0005_bs8_ep20_seed4826
+0.001,10,8,0.3023153057617533,classical_naive_0pct_validation_lr0.001_bs8_ep10_seed4826
+0.0005,10,8,0.30028278543655,classical_naive_0pct_validation_lr0.0005_bs8_ep10_seed4826
+0.0001,10,8,0.2785436550017674,classical_naive_0pct_validation_lr0.0001_bs8_ep10_seed4826
+0.0001,20,8,0.2785436550017674,classical_naive_0pct_validation_lr0.0001_bs8_ep20_seed4826

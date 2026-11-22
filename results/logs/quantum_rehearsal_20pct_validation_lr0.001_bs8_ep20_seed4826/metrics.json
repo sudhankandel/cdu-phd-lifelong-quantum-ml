@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.8511530398322851,
+      null,
+      null
+    ],
+    [
+      0.009433962264150943,
+      0.6904759383207659,
+      null
+    ],
+    [
+      0.2641509433962264,
+      0.6661097814115056,
+      0.0
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.8511530398322851,
+      null,
+      null
+    ],
+    [
+      0.009433962264150943,
+      0.6904759383207659,
+      null
+    ],
+    [
+      0.2641509433962264,
+      0.6661097814115056,
+      0.0
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.8511530398322851
+      ],
+      "average_accuracy": 0.8511530398322851,
+      "average_balanced_accuracy": 0.8511530398322851,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 1.9092198918333032,
+      "drift_from_initial_l2": 1.9092198918333032
+    },
+    {
+      "task": 2,
+      "train_samples": 5050,
+      "task_balanced_accuracy": [
+        0.009433962264150943,
+        0.6904759383207659
+      ],
+      "average_accuracy": 0.34995495029245843,
+      "average_balanced_accuracy": 0.34995495029245843,
+      "average_forgetting": 0.8417190775681341,
+      "parameter_drift_l2": 5.736941977820235,
+      "drift_from_initial_l2": 6.156121974106081
+    },
+    {
+      "task": 3,
+      "train_samples": 1476,
+      "task_balanced_accuracy": [
+        0.2641509433962264,
+        0.6661097814115056,
+        0.0
+      ],
+      "average_accuracy": 0.31008690826924395,
+      "average_balanced_accuracy": 0.31008690826924395,
+      "average_forgetting": 0.30568412667265954,
+      "parameter_drift_l2": 3.569506644962855,
+      "drift_from_initial_l2": 6.393960735185783
+    }
+  ],
+  "final_average_balanced_accuracy": 0.31008690826924395,
+  "elapsed_seconds": 119.99,
+  "smoke_test": false
+}

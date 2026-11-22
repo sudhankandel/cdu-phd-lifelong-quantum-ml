@@ -1,0 +1,11 @@
+{
+  "model": "quantum",
+  "strategy": "naive",
+  "memory": 0,
+  "seed": 4826,
+  "learning_rate": 0.0001,
+  "epochs": 20,
+  "batch_size": 8,
+  "final_average_balanced_accuracy": 0.2960863730132297,
+  "run": "quantum_naive_0pct_validation_lr0.0001_bs8_ep20_seed4826"
+}

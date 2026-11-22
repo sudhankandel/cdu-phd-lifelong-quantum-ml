@@ -1,0 +1,86 @@
+{
+  "accuracy_matrix": [
+    [
+      0.8055555555555556,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7629866347538761,
+      null
+    ],
+    [
+      0.0,
+      0.5651132127425231,
+      0.7834040296924709
+    ]
+  ],
+  "balanced_accuracy_matrix": [
+    [
+      0.8055555555555556,
+      null,
+      null
+    ],
+    [
+      0.0,
+      0.7629866347538761,
+      null
+    ],
+    [
+      0.0,
+      0.5651132127425231,
+      0.7834040296924709
+    ]
+  ],
+  "eval_mode": "validation",
+  "use_best_config": false,
+  "best_config_source": null,
+  "best_config_sha256": null,
+  "selected_validation_balanced_accuracy": null,
+  "selected_validation_run": null,
+  "task_summaries": [
+    {
+      "task": 1,
+      "train_samples": 283,
+      "task_balanced_accuracy": [
+        0.8055555555555556
+      ],
+      "average_accuracy": 0.8055555555555556,
+      "average_balanced_accuracy": 0.8055555555555556,
+      "average_forgetting": 0.0,
+      "parameter_drift_l2": 1.9910309314727783,
+      "drift_from_initial_l2": 1.9910309314727783
+    },
+    {
+      "task": 2,
+      "train_samples": 5007,
+      "task_balanced_accuracy": [
+        0.0,
+        0.7629866347538761
+      ],
+      "average_accuracy": 0.38149331737693803,
+      "average_balanced_accuracy": 0.38149331737693803,
+      "average_forgetting": 0.8055555555555556,
+      "parameter_drift_l2": 7.537362098693848,
+      "drift_from_initial_l2": 7.783572673797607
+    },
+    {
+      "task": 3,
+      "train_samples": 683,
+      "task_balanced_accuracy": [
+        0.0,
+        0.5651132127425231,
+        0.7834040296924709
+      ],
+      "average_accuracy": 0.44950574747833133,
+      "average_balanced_accuracy": 0.44950574747833133,
+      "average_forgetting": 0.5017144887834543,
+      "parameter_drift_l2": 5.8616719245910645,
+      "drift_from_initial_l2": 9.373157501220703
+    }
+  ],
+  "final_average_balanced_accuracy": 0.44950574747833133,
+  "elapsed_seconds": 36.14,
+  "smoke_test": false
+}
