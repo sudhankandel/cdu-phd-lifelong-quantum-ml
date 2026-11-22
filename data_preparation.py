@@ -1,4 +1,3 @@
-
 from pathlib import Path
 import json
 
@@ -6,7 +5,7 @@ import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
-from config import SEED, set_seed, TRAIN_RATIO
+from config import SEED, PRIMARY_SEED, set_seed, TRAIN_RATIO
 
 
 # ------------------------------------------
@@ -20,7 +19,7 @@ LABEL_FILE = (
     DATA_DIR / "ISIC2018_Task3_Training_GroundTruth.csv"
 )
 
-OUTPUT_DIR = DATA_DIR / "processed"
+OUTPUT_DIR = DATA_DIR / "processed" / f"seed{SEED}"
 
 
 def load_dataset():
@@ -120,6 +119,10 @@ def prepare_dataset():
         df["original_class"].isin(selected_classes)
     ].copy()
 
+    # NOTE: HAM10000 has several images per lesion and the ISIC CSV has no
+    # lesion id, so an image-level split may place near-duplicates in both
+    # train and test. Acknowledge this limitation in the report.
+
     # Fixed global labels for all three tasks
     class_to_id = {
         name: index
@@ -171,7 +174,7 @@ def prepare_dataset():
     # Save reproducibility metadata
     metadata = {
         "seed": SEED,
-        "temporary_seed": True,
+        "is_primary_seed": SEED == PRIMARY_SEED,
         "train_ratio": TRAIN_RATIO,
         "excluded_class": excluded_class,
         "tasks": tasks,
@@ -188,6 +191,7 @@ def prepare_dataset():
         json.dump(metadata, file, indent=4)
 
     print("\nDataset preparation complete!")
+    print(f"FIRST LINE OF REPORT -> Seed: {SEED}; task sequence: {tasks}; excluded: {excluded_class}")
     print("Seed:", SEED)
     print("Excluded class:", excluded_class)
 
